@@ -1,8 +1,13 @@
 import React from 'react'
+import Footer from './footer'
+import Header from './header'
 
 const HomePage = () => {
     return (
-        <div>Tela Inicial</div>
+        <div>
+            <Header />
+            <Footer />
+        </div>
     )
 }
 
