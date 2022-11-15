@@ -14,10 +14,15 @@ const Footer = () => {
                     justifyContent: 'center',
                     position: 'fixed',
                     left: 0,
-                    bottom: '5vh'
+                    bottom: 0
                 }}
             >
-
+                <span
+                    style={{
+                        marginLeft: 20
+                    }}>
+                    &copy; F1 News
+                </span>
             </footer>
         </>
     )
